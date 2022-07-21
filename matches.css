@@ -1,0 +1,282 @@
+/*------------------ 
+  Added Google Fonts
+---------------------*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+/* -----------------------
+  Common Utilities Starts
+--------------------------*/
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* -----------------------
+  Common Utilities End
+--------------------------*/
+
+
+/* ---------------------------------
+  Header Section Editing Starts
+-----------------------------------*/
+
+.main-header{
+    width: 1322px;
+    height: 650px;
+
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    margin-bottom: 130px;
+
+    background-color: #77B96D;
+    border-radius: 30px;
+    padding: 20px 80px;
+
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.header-info{
+    width: 531px;
+    padding-top: 80px;
+}
+
+.marcelo{
+    width: 591px;
+    padding-top: 48px;
+}
+
+.header-title{
+    font-size: 70px;
+    font-weight: 700;
+    line-height: 80px;
+    color: #fffcfc;
+
+
+    
+}
+
+.header-description{
+    font-size: 18px;
+    font-weight: bold;
+    word-spacing: 3px;
+    letter-spacing: 2px;
+    line-height: 26px;
+
+    margin-top: 50px;
+    margin-bottom: 55px;
+
+    color: #fffcfc;
+}
+
+
+
+.watch-btn a{
+    text-decoration: none;
+    background-color: black;
+    padding: 17px 25px;
+
+    border-radius: 10px;
+    color: white;
+}
+
+
+
+
+/* ---------------------------------
+  Header Section Editing Ends
+-----------------------------------*/
+/* -----------------------------------------------------
+  Blog Section Editing Starts
+------------------------------------------------------*/
+
+/* -----------------------
+  .main-nav Editing Starts
+------------------------*/
+
+.nav-blog{
+    display: flex;
+    
+    
+}
+.main-nav{
+    width: 310px;
+    height: 315px;
+    background-color: #77B96D;
+
+    margin-bottom: 20px;
+    margin-left: 220px;
+    margin-right: 40px;
+    padding-top: 5px;
+
+    border-radius: 10px;
+
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
+
+.main-nav a{
+    text-decoration: none;
+    color: black;
+}
+
+.upcoming-match{
+    margin: 20px 30px;
+    width: 250px;
+    height: 64px;
+    background-color: #fd1212;
+    border-radius: 10px;
+
+    font-size: 21px;
+    font-weight: 600;
+    text-align: center;
+    padding-top: 20px;
+}
+.upcoming-match a{
+    color: white;
+}
+.all-group{
+    margin: 20px 30px;
+    width: 250px;
+    height: 64px;
+    background-color: #ffffff;
+    border-radius: 10px;
+
+    font-size: 21px;
+    font-weight: 600;
+    text-align: center;
+    padding-top: 20px;
+}
+.blog{
+    margin: 20px 30px;
+    width: 250px;
+    height: 64px;
+    background-color: #ffffff;
+    border-radius: 10px;
+
+    font-size: 21px;
+    font-weight: 600;
+    text-align: center;
+    padding-top: 20px;
+}
+
+/* -----------------------
+  .main-nav Editing Ends
+------------------------*/
+.blogs-area{
+    margin-bottom: 100px;
+}
+.blogs-list{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 40px;
+}
+.see-blog{
+    width: 312px;
+    height: 180px;
+    border: 2px solid #77b96db7;
+    border-radius: 10px;
+    padding-top: 30px;
+}
+
+
+.country-img{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.country-img>p{
+    padding: 12px 10px;
+}
+
+.match-info{
+    text-align: center;
+}
+
+.match-info>h3,p{
+    padding: 10px 0;
+}
+/* -----------------------------------------------------
+  Blog Section Editing Ends
+------------------------------------------------------*/
+
+
+/* ---------------------------------
+  Footer Section Start
+-----------------------------------*/
+
+footer{
+    height: 440px;
+    background-color: #77B96D;
+}
+
+footer>h1{
+    text-align: center;
+    color: #ffffff;
+    font-size: 50px;
+    font-weight: 600;
+    line-height: 72px;
+    padding-top: 130px;
+    padding-bottom: 25px;
+}
+
+footer>hr{
+    width: 1320px;
+    /* height: 3px; */
+    margin: auto;
+    border: 2px solid #ffffff;
+    border-radius: 5px;
+}
+
+.footer-page{
+    padding-top: 50px;
+    width: 1000px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-page h4{
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 30px;
+    color: #ffffff;
+    letter-spacing: 1px;
+}
+
+.social-links{
+    margin-top: 50px;
+    width: 15%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.fa-facebook{
+    font-size: 40px;
+    color: #4267B2;
+    padding-right: 30px;
+    padding-left: 50px;
+}
+
+.fa-youtube{
+    font-size: 40px;
+    color: #FF0000;
+    padding-right: 30px;
+}
+
+.fa-github{
+    font-size: 40px;
+    color: #171515;
+}
+
+
+/* ---------------------------------
+  Footer Section End
+-----------------------------------*/
